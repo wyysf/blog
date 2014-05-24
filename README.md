@@ -1,7 +1,7 @@
 
 # 我的第一个GitHub项目
 
-这是项目 [helloworld](https://github.com/gotgithub/helloworld) ，
+这是项目 [helloworld](https://github.com/wyysf/blog/tree/master) ，
 欢迎访问。
 
 这个项目的版本库是 **Git格式** ，在 Windows、Linux、Mac OS X
@@ -16,7 +16,7 @@
 
 操作示例：
 
-    $ git clone git://github.com/gotgithub/helloworld.git
+    $ git clone git://github.com/wyysf/blog.git
 =======
 blog
 ====
