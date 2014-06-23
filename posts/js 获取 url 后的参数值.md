@@ -1,4 +1,4 @@
-#### 这个方法在使用中经常被用到
+# 这个方法在使用中经常被用到
 ====
         function getParam(name){
                 var reg = new RegExp(name,"ig");
