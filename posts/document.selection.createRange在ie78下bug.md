@@ -1,0 +1,3 @@
+document.selection.createRange在ie78下bug
+===
+document.selection.createRange在ie78下bug，如果你要插入的表情或者文字等等，需要点击某个按钮来触发弹出层然后选择的话，如果说你点击的按钮是span或者别的，我没有试button应该是button和a是可以的，别的标签是不行的，别的像span标签的话，插入的位置一直在最前面。当然如果是a标签的话，记得一定要加上href否则也是不行的。这个坑还是比较恶心的，跟点击的标签有关系，这边记录下！
