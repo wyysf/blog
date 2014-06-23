@@ -1,29 +1,31 @@
 {
-    "docs"      : ["posts"],
-    "template"    : "default",
-    "domain_alias" :  ["your.domain"],    
-    "perpage"   : 10,
-    "order"  : "number",
-    "types"     : {
-        "\\.(md||markdown)$"   : "markdown", 
-        "\\.(js||css||json)$"  : "code",
-        "\\.html?$"            : "html",
-        ".*"                   : "text"        
-    },
-    "title"  : "Akira's Blog",
-    "description" : "My Blog Description...",
-    "comment"  : {"type":"disqus", "short_name":"gitpress"},
-    "friends"  : [
-        {
-          "name"  : "github",
-          "title"  : "github",
-          "url"  : "http://github.com"          
+        "docs" : {"all": "posts"},
+        "perpage" : 5,
+        "types" : {
+                "\\.(md||markdown)$" : "markdown",
+                "\\.(js||css||json)$" : "code",
+                "\\.html?$" : "html",
+                ".*" : "text"
         },
-        {
-          "name"  : "gitpress",
-          "title"  : "gitpress",
-          "url"  : "http://gitpress.org"
-        }
-    ] 
+        "title" : "web前端学习",
+        "comment" : {"type": "duoshuo", "short_name": "wyysf"},
+        "friends" : [
+                {
+                        "name" : "月影MM",
+                        "title": "十年踪迹的博客",
+                        "url" : "http://blog.silverna.org/"
+                },
+                {
+                        "name" : "JerryQu的小站",
+                        "title": "屈屈的博客",
+                        "url" : "http://imququ.com"
+                },
+                
+                {
+                        "name" : "doyoe",
+                        "title" : "CSS探索之旅",
+                        "url" : "http://blog.doyoe.com/"
+                }
+        ]
 }
 
