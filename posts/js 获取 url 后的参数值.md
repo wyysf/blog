@@ -1,3 +1,5 @@
+#### 这个方法在使用中经常被用到
+====
         function getParam(name){
                 var reg = new RegExp(name,"ig");
                 var arr = window.location.search.substring(1).split("&");
