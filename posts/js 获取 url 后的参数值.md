@@ -1,4 +1,4 @@
-    function getParam(name){
+`    function getParam(name){
         var reg = new RegExp(name,"ig");
         var arr = window.location.search.substring(1).split("&");
         var obj = {};
@@ -9,3 +9,4 @@
         }
         return obj[name] ? obj[name] : "";
     }
+`
